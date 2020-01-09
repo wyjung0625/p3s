@@ -33,14 +33,14 @@ rm -rf /tmp/mujoco_tmp
 cp <mujoco_key_folder>/mjkey.txt <installation_path_of_your_choice>/rllab/vendor/mujoco
 ```
 
-4. Go to "p3s_iclr2020" directory
+4. Go to "p3s" directory
 ```
-cd <p3s_iclr2020_folder>
+cd <p3s_folder>
 ```
 
 5. Create and activate conda environment
 ```
-cd p3s_iclr2020 # TODO.before_release: update folder name
+cd p3s # TODO.before_release: update folder name
 conda env create -f environment.yml
 source activate p3s
 ```
